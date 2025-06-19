@@ -46,6 +46,11 @@ KeyloggerDetectorJava/
 1. ✅ Install **Java 17**  
 2. ✅ Clone this repository  
 3. ✅ Add your Gmail & app-password in `config.properties`
+## with this filename config.properties
+gmail.username=your-email@gmail.com
+gmail.password=your-app-password
+gmail.to=receiver-email@gmail.com
+
 
 ---
 
