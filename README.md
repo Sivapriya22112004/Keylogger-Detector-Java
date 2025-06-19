@@ -19,18 +19,7 @@ A simple Java-based tool that scans active Windows processes to detect known key
 
 ## 📂 Project Structure
 
-KeyloggerDetectorJava/
-├── src/
-│ ├── Main.java
-│ ├── ProcessScanner.java
-│ ├── EmailSender.java
-│ └── SuspiciousListLoader.java
-├── lib/ # JAR files for email support
-├── suspicious_list.txt # List of known keyloggers
-├── config.properties # Stores email credentials
-├── logs/
-│ └── detections.txt
-
+<pre><code>## 📂 Project Structure ``` KeyloggerDetectorJava/ ├── src/ │ ├── Main.java │ ├── ProcessScanner.java │ ├── EmailSender.java │ └── SuspiciousListLoader.java ├── lib/ # JAR files for email support ├── suspicious_list.txt # List of known keyloggers ├── config.properties # Stores email credentials ├── logs/ │ └── detections.txt ``` </code></pre>
 
 ## ⚙️ How to Run
 
@@ -40,8 +29,7 @@ KeyloggerDetectorJava/
 4. Run:
 
 ```bash
-javac -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" *.java
-java -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" Main
+<pre><code>```bash javac -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" *.java java -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" Main ``` </code></pre>
 === Keylogger Detector for Windows ===
 Detected: chrome.exe
 Detected: explorer.exe
