@@ -47,23 +47,17 @@ KeyloggerDetectorJava/
 2. ✅ Clone this repository  
 3. ✅ Add your Gmail & app-password in `config.properties`
 
-## config.properties
+## 🔐 Configuration File (config.properties)
 
-gmail.username=your-email@gmail.com
-gmail.password=your-app-password
-gmail.to=receiver-email@gmail.com
-
+<pre><code>gmail.username=your-email@gmail.com gmail.password=your-app-password gmail.to=receiver-email@gmail.com </code></pre>
 
 ---
 
 ### 🔧 Compile & Run
 
-```bash
-cd src
-javac -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" *.java
-java -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" Main
+<pre><code>cd src javac -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" *.java java -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" Main </code></pre>
 
-## Sample output
+## ✅ Sample Output
 
 === Keylogger Detector for Windows ===
 Detected: chrome.exe
