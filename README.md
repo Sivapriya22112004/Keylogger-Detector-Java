@@ -25,4 +25,41 @@ A simple Java-based tool that scans active Windows processes to detect known key
 ---
 
 ## 📂 Project Structure
+```
+KeyloggerDetectorJava/
+├── src/
+│   ├── Main.java
+│   ├── ProcessScanner.java
+│   ├── EmailSender.java
+│   └── SuspiciousListLoader.java
+├── lib/                     # JAR files for email support
+├── suspicious_list.txt      # List of known keyloggers
+├── config.properties         # Stores email credentials
+├── logs/
+│   └── detections.txt
+```
 
+---
+
+## ⚙️ How to Run
+
+1. ✅ Install **Java 17**  
+2. ✅ Clone this repository  
+3. ✅ Add your Gmail & app-password in `config.properties`
+
+---
+
+### 🔧 Compile & Run
+
+```bash
+cd src
+javac -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" *.java
+java -cp ".;../lib/javax.mail-1.6.2.jar;../lib/javax.activation-1.2.0.jar" Main
+=== Keylogger Detector for Windows ===
+Detected: chrome.exe
+Detected: explorer.exe
+Email sent successfully.
+👩‍💻 Created By
+Sivapriya A
+Final Year – B.Tech
+GitHub: @Sivapriya22112004
