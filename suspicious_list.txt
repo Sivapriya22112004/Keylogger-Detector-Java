@@ -1,0 +1,8 @@
+keylogger.exe
+logger.exe
+recordkeys.exe
+stealer.exe
+hiddenlogger.exe
+winlogger.exe
+chrome.exe
+explorer.exe
