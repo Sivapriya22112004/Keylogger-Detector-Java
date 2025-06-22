@@ -51,16 +51,14 @@ Keylogger-Detector-Java/
 > - Windows OS (uses `tasklist` command)  
 > - Required JARs must be in the `lib/` folder  
 
-### ✅ Step 1: Compile the Java source files
+### ✅ Step 1: Compile the Java source files and Run
 
 ```bash
 javac -cp ".;lib/javax.mail-1.6.2.jar;lib/javax.activation-1.2.0.jar" src/*.java
-
-
 java -cp ".;lib/javax.mail-1.6.2.jar;lib/javax.activation-1.2.0.jar;src" Main
+```
 
-
-👤 Author
+## 👤 Author
 Sivapriya A
 Final Year B.Tech  Student
 
