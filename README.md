@@ -57,10 +57,12 @@ Keylogger-Detector-Java/
 javac -cp ".;lib/javax.mail-1.6.2.jar;lib/javax.activation-1.2.0.jar" src/*.java
 
 
-✅ Step 2: Run the application
 java -cp ".;lib/javax.mail-1.6.2.jar;lib/javax.activation-1.2.0.jar;src" Main
 
 
-##  👤 Author
+👤 Author
 Sivapriya A
 Final Year B.Tech  Student
+
+
+---
