@@ -43,7 +43,7 @@ Keylogger-Detector-Java/
 ├── config.properties         # (Ignored) Gmail credentials - NOT pushed to GitHub
 ├── .gitignore                # Specifies which files/folders to exclude
 └── README.md                 # Project documentation (this file)
----
+```
 ## 🚀 How to Run
 
 > ⚠️ **Prerequisites**:  
@@ -59,7 +59,7 @@ java -cp ".;lib/javax.mail-1.6.2.jar;lib/javax.activation-1.2.0.jar;src" Main
 ```
 
 ## 👤 Author
-Sivapriya A
+**Sivapriya A**
 Final Year B.Tech  Student
 
 
