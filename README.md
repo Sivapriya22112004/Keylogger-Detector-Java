@@ -44,7 +44,6 @@ Keylogger-Detector-Java/
 ├── .gitignore                # Specifies which files/folders to exclude
 └── README.md                 # Project documentation (this file)
 ---
-
 ## 🚀 How to Run
 
 > ⚠️ **Prerequisites**:  
