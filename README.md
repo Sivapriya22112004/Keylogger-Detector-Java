@@ -49,15 +49,17 @@ Keylogger-Detector-Java/
 > ⚠️ **Prerequisites**:  
 > - Java 11 or higher must be installed  
 > - Windows OS (uses `tasklist` command)  
-> - `javax.mail` and `javax.activation` JARs must be in the `lib/` folder  
+> - Required JARs must be in the `lib/` folder  
 
 ### ✅ Step 1: Compile the Java source files
 
 ```bash
 javac -cp ".;lib/javax.mail-1.6.2.jar;lib/javax.activation-1.2.0.jar" src/*.java
 
+
 ✅ Step 2: Run the application
 java -cp ".;lib/javax.mail-1.6.2.jar;lib/javax.activation-1.2.0.jar;src" Main
+
 
 ##  👤 Author
 Sivapriya A
