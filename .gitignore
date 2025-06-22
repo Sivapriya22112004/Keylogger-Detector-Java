@@ -1,0 +1,18 @@
+# Ignore compiled class files
+*.class
+
+# Ignore logs
+logs/
+
+# Ignore library JARs
+lib/
+
+# Ignore config file with credentials
+config.properties
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
